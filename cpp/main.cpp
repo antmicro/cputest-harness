@@ -344,7 +344,7 @@ int	main(int argc, char **argv) {
 			tb.tick();
 		}
 	} else {
-		while(!tb.done())
+		while(1)//!tb.done())
 			tb.tick();
 	}
 }
